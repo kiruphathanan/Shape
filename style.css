@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-style: normal;
+}
+#input{
+    background-image: url("https://cdn.pixabay.com/photo/2016/07/30/00/51/boat-1556264_1280.jpg");
+    width: 100vw;
+    height: 200hv;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+h1{
+    font-size: 4em;
+
+}
+p{
+    font-size: 2em;
+    margin: 10px;
+}
+#number{
+    width: 150px;
+    height: 40px;
+    font-size: 2em;
+    padding: 0px 10px;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+#button{
+    width: 130px;
+    height: 40px;
+    font-size: 1.5em;
+    background-color: yellow;
+    color: black;
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: azure;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+     background-color: crimson; 
+    margin: 10px;
+
+}
+.square{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: azure;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+     background-color: chartreuse; 
+}
+.rectangle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: azure;
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    background-color: darkblue; 
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+}
